@@ -23,7 +23,13 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="linked-list.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linked-list.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.h">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
