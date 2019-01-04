@@ -13,7 +13,7 @@ struct Stack {
 	}
 
 	bool empty() {
-		return top == 0;
+		return top == -1;
 	}
 
 	void push(int num) {
@@ -25,7 +25,7 @@ struct Stack {
 
 		if (empty())
 		{
-			cout << "A pilha está vazia";
+			cout << "The stack is empty.";
 			return -1;
 		}
 		else {
